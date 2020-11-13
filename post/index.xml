@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://latpurple.github.io/post/</link>
+    <link>https://github.latpurple.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 00:35:09 +0800</lastBuildDate><atom:link href="https://latpurple.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2020 00:35:09 +0800</lastBuildDate><atom:link href="https://github.latpurple.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solve</title>
-      <link>https://latpurple.github.io/post/solve/</link>
+      <link>https://github.latpurple.io/post/solve/</link>
       <pubDate>Sat, 14 Nov 2020 00:35:09 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/solve/</guid>
+      <guid>https://github.latpurple.io/post/solve/</guid>
       <description>#hugo建站跟使用git上传到github
-#teps1: 配置config.toml文件 baseUrl=&amp;ldquo;latpurple.github.io&amp;rdquo; themeDir=themes theme=&amp;ldquo;m10c&amp;rdquo; . . . #说明 这样做可以省去很多步骤，也可以不用配置，而是直接在命令行里面进行配置，但是每次都要这样，会很麻烦，主要是容易忘，emmm血的教训 #teps2 启动hugo hugo server -D或者hugo也行？ 这是生成了一个public文件，可以覆盖掉以前的public文件 public存放着本地生成地静态网站，可以通过本地访问 #解释 我明白了，hugo是直接生成public，hugo server -D是开启服务 #teps3 cd public 进入public文件夹 #teps4 git add . (或许第一次使用需要git init？？) 我这里直接git add . 添加当前目录全部文件到暂存区 #teps5 git commit -m &amp;ldquo;update&amp;rdquo; 主要是将暂存区里的改动提交到版本库，这里-m是参数，还有许多其他参数，暂时不深究了。 #teps6 git remote add origin https://github.com/latpurple/github.io.git 这段话什么意思还是不太明白，但是之后就可以不加这条语句了 #teps7 git push origin master或者git push -u origin master好像也可以git push?? #teps8 至此基本步骤就完成了</description>
+#teps1: 配置config.toml文件 baseUrl=&amp;ldquo;latpurple.github.io&amp;rdquo; themeDir=themes theme=&amp;ldquo;m10c&amp;rdquo; . . . #说明 这样做可以省去很多步骤，也可以不用配置，而是直接在命令行里面进行配置，但是每次都要这样，会很麻烦，主要是容易忘，emmm血的教训 #teps2 启动hugo hugo server -D或者hugo也行？ 这是生成了一个public文件，可以覆盖掉以前的public文件 public存放着本地生成地静态网站，可以通过本地访问 #解释 我明白了，hugo是直接生成public，hugo server -D是开启服务 #teps3 cd public 进入public文件夹 #teps4 git add . (或许第一次使用需要git init？？) 我这里直接git add .或者是add * ? 添加当前目录全部文件到暂存区 #teps5 git commit -m &amp;ldquo;update&amp;rdquo; 主要是将暂存区里的改动提交到版本库，这里-m是参数，还有许多其他参数，暂时不深究了。 #teps6 git remote add origin https://github.com/latpurple/github.io.git 这段话什么意思还是不太明白，但是之后就可以不加这条语句了 #teps7 git push origin master或者git push -u origin master好像也可以git push?? #teps8 至此基本步骤就完成了</description>
     </item>
     
     <item>
       <title>Dome</title>
-      <link>https://latpurple.github.io/post/dome/</link>
+      <link>https://github.latpurple.io/post/dome/</link>
       <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/dome/</guid>
+      <guid>https://github.latpurple.io/post/dome/</guid>
       <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
 #test again 希望这次能够成功吧！
 #进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
