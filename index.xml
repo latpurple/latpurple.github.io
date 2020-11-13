@@ -13,8 +13,28 @@
       <pubDate>Sat, 14 Nov 2020 00:35:09 +0800</pubDate>
       
       <guid>https://github.latpurple.io/post/solve/</guid>
-      <description>#hugo建站跟使用git上传到github
-#teps1: 配置config.toml文件 baseUrl=&amp;ldquo;latpurple.github.io&amp;rdquo; themeDir=themes theme=&amp;ldquo;m10c&amp;rdquo; . . . #说明 这样做可以省去很多步骤，也可以不用配置，而是直接在命令行里面进行配置，但是每次都要这样，会很麻烦，主要是容易忘，emmm血的教训 #teps2 启动hugo hugo server -D或者hugo也行？ 这是生成了一个public文件，可以覆盖掉以前的public文件 public存放着本地生成地静态网站，可以通过本地访问 #解释 我明白了，hugo是直接生成public，hugo server -D是开启服务 #teps3 cd public 进入public文件夹 #teps4 git add . (或许第一次使用需要git init？？) 我这里直接git add .或者是add * ? 添加当前目录全部文件到暂存区 #teps5 git commit -m &amp;ldquo;update&amp;rdquo; 主要是将暂存区里的改动提交到版本库，这里-m是参数，还有许多其他参数，暂时不深究了。 #teps6 git remote add origin https://github.com/latpurple/github.io.git 这段话什么意思还是不太明白，但是之后就可以不加这条语句了 #teps7 git push origin master或者git push -u origin master好像也可以git push?? #teps8 至此基本步骤就完成了</description>
+      <description>#hugo建站跟使用git上传到github  #teps1: 配置config.toml文件
+baseUrl=&amp;ldquo;latpurple.github.io&amp;rdquo;
+themeDir=themes
+theme=&amp;ldquo;m10c&amp;rdquo;
+. . .
+ #说明 这样做可以省去很多步骤，也可以不用配置，而是直接在命令行里面进行配置，但是每次都要这样，会很麻烦，主要是容易忘，emmm血的教训
+ #teps2 启动hugo
+hugo server -D或者hugo也行？
+这是生成了一个public文件，可以覆盖掉以前的public文件
+public存放着本地生成地静态网站，可以通过本地访问
+ #解释 我明白了，hugo是直接生成public，hugo server -D是开启本地服务
+ #teps3 cd public
+进入public文件夹
+ #teps4 git add .
+(或许第一次使用需要git init？？)
+我这里直接git add .或者是add * ?
+ #更新 git add . 和 git add * 区别
+git add . 会把本地所有untrack的文件都加入暂存区，并且会根据.gitignore做过滤，但是git add * 会忽略.gitignore把任何文件都加入 添加当前目录全部文件到暂存区
+因此，当我们更新博客的时候，使用add * ，这样就可以保证上传的都是hugo命令生成的了。
+或许，等我熟练了，我就可以不用这么麻烦了？
+ #不懂就问 难道每次都得这样？
+ #teps5 git commit -m &amp;ldquo;update&amp;rdquo;</description>
     </item>
     
     <item>
