@@ -33,7 +33,7 @@ public存放着本地生成地静态网站，可以通过本地访问
 git add . 会把本地所有untrack的文件都加入暂存区，并且会根据.gitignore做过滤，但是git add * 会忽略.gitignore把任何文件都加入 添加当前目录全部文件到暂存区
 因此，当我们更新博客的时候，使用add * ，这样就可以保证上传的都是hugo命令生成的了。
 emmmm，每次add . 的时候，GitHub上面会有404报错，试试add *
- #不懂就问 难道每次都得这样？</description>
+ #更新 啊啊啊好像也不对，自闭了QAQ</description>
     </item>
     
     <item>
