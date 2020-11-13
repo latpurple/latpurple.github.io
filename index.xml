@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://latpurple.github.io/</link>
+    <link>https://github.latpurple.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2020 18:19:24 +0800</lastBuildDate><atom:link href="https://latpurple.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Nov 2020 18:19:24 +0800</lastBuildDate><atom:link href="https://github.latpurple.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dome</title>
-      <link>https://latpurple.github.io/post/dome/</link>
+      <link>https://github.latpurple.io/post/dome/</link>
       <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/dome/</guid>
+      <guid>https://github.latpurple.io/post/dome/</guid>
       <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
 #test again 希望这次能够成功吧！
 #进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
