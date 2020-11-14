@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Nov 2020 13:53:39 +0800</lastBuildDate><atom:link href="https://latpurple.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Finaltest</title>
-      <link>https://latpurple.github.io/post/finaltest/</link>
+      <title>0x03</title>
+      <link>https://latpurple.github.io/post/0x03/</link>
       <pubDate>Sat, 14 Nov 2020 13:53:39 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/finaltest/</guid>
+      <guid>https://latpurple.github.io/post/0x03/</guid>
       <description>#warning 或许是新建一个markdown的问题？？
 我再测试一次，这回如果有问题的话，那就是了。
 等等再测试删除一个markdown会不会同样更新
@@ -23,11 +23,11 @@
     </item>
     
     <item>
-      <title>Cet 4</title>
-      <link>https://latpurple.github.io/post/cet-4/</link>
+      <title>0x02</title>
+      <link>https://latpurple.github.io/post/0x02/</link>
       <pubDate>Sat, 14 Nov 2020 13:24:48 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/cet-4/</guid>
+      <guid>https://latpurple.github.io/post/0x02/</guid>
       <description>#about my cet46  #listening parts emmmmm,听力渣渣，不得不练习了，不然又要炸，这个分不太想丢。
  #write parts 这个部分不太知道怎么学习，跟着写吧，分高一点，我的阅读跟完型就算是炸一点应该也没啥关系吧
 #wrong 这次我是用的
@@ -43,11 +43,11 @@
     </item>
     
     <item>
-      <title>Solve</title>
-      <link>https://latpurple.github.io/post/solve/</link>
+      <title>0x01</title>
+      <link>https://latpurple.github.io/post/0x01/</link>
       <pubDate>Sat, 14 Nov 2020 00:35:09 +0800</pubDate>
       
-      <guid>https://latpurple.github.io/post/solve/</guid>
+      <guid>https://latpurple.github.io/post/0x01/</guid>
       <description>#hugo建站跟使用git上传到github  #teps1: 配置config.toml文件
 baseUrl=&amp;ldquo;https://latpurple.github.io&amp;rdquo;
 这里一定不能写成baseUrl=&amp;ldquo;https://latpurple.github.io/&amp;quot;
@@ -70,6 +70,17 @@ public存放着本地生成地静态网站，可以通过本地访问
  #更新 git add . 和 git add * 区别
 git add . 会把本地所有untrack的文件都加入暂存区，并且会根据.gitignore做过滤，但是git add * 会忽略.gitignore把任何文件都加入 添加当前目录全部文件到暂存区
 因此，当我们更新博客的时候，使用add * ，这样就可以保证上传的都是hugo命令生成的了。</description>
+    </item>
+    
+    <item>
+      <title>0x00</title>
+      <link>https://latpurple.github.io/post/0x00/</link>
+      <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
+      
+      <guid>https://latpurple.github.io/post/0x00/</guid>
+      <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
+#test again 希望这次能够成功吧！
+#进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
     </item>
     
   </channel>
