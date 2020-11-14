@@ -24,7 +24,7 @@
 5、试试更改之后，然后用git push -u origin master
 我感觉应该可行
 #ps：
-如果不行的话，我再试试 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://github.com/latpurple/latpurple.github.io.git&amp;quot;</description>
+如果不行的话，我再试试 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://github.com/latpurple/latpurple.github.io.git&amp;quot; &amp;ndash;buildDrafts</description>
     </item>
     
     <item>
