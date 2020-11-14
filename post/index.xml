@@ -15,7 +15,11 @@
       <guid>https://latpurple.github.io/post/finaltest/</guid>
       <description>#warning 或许是新建一个markdown的问题？？
 我再测试一次，这回如果有问题的话，那就是了。
-等等再测试删除一个markdown会不会同样更新</description>
+等等再测试删除一个markdown会不会同样更新
+ #selove！！ 我懂了！为什么push之后没有出来，
+是因为还没有刷新出来！
+等一下就okl，nice！！！
+ #test again 试试删除一个，然后等几分钟</description>
     </item>
     
     <item>
@@ -66,17 +70,6 @@ public存放着本地生成地静态网站，可以通过本地访问
  #更新 git add . 和 git add * 区别
 git add . 会把本地所有untrack的文件都加入暂存区，并且会根据.gitignore做过滤，但是git add * 会忽略.gitignore把任何文件都加入 添加当前目录全部文件到暂存区
 因此，当我们更新博客的时候，使用add * ，这样就可以保证上传的都是hugo命令生成的了。</description>
-    </item>
-    
-    <item>
-      <title>Dome</title>
-      <link>https://latpurple.github.io/post/dome/</link>
-      <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
-      
-      <guid>https://latpurple.github.io/post/dome/</guid>
-      <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
-#test again 希望这次能够成功吧！
-#进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
     </item>
     
   </channel>
