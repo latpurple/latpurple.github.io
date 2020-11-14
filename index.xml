@@ -2,29 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://github.latpurple.io/</link>
+    <link>https://latpurple.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2020 13:24:48 +0800</lastBuildDate><atom:link href="https://github.latpurple.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2020 13:24:48 +0800</lastBuildDate><atom:link href="https://latpurple.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cet 4</title>
-      <link>https://github.latpurple.io/post/cet-4/</link>
+      <link>https://latpurple.github.io/post/cet-4/</link>
       <pubDate>Sat, 14 Nov 2020 13:24:48 +0800</pubDate>
       
-      <guid>https://github.latpurple.io/post/cet-4/</guid>
+      <guid>https://latpurple.github.io/post/cet-4/</guid>
       <description>#about my cet46  #listening parts emmmmm,听力渣渣，不得不练习了，不然又要炸，这个分不太想丢。
- #write parts 这个部分不太知道怎么学习，跟着写吧，分高一点，我的阅读跟完型就算是炸一点应该也没啥关系吧</description>
+ #write parts 这个部分不太知道怎么学习，跟着写吧，分高一点，我的阅读跟完型就算是炸一点应该也没啥关系吧
+#wrong 这次我是用的
+1、hugo
+2、git add *
+3、git commit -m &amp;ldquo;cet update&amp;rdquo;
+4、 git push origin master
+然后就出现404错误
+5、试试更改之后，然后用git push -u origin master
+我感觉应该可行
+#ps：
+如果不行的话，我再试试 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://github.com/latpurple/latpurple.github.io.git&amp;quot;</description>
     </item>
     
     <item>
       <title>Solve</title>
-      <link>https://github.latpurple.io/post/solve/</link>
+      <link>https://latpurple.github.io/post/solve/</link>
       <pubDate>Sat, 14 Nov 2020 00:35:09 +0800</pubDate>
       
-      <guid>https://github.latpurple.io/post/solve/</guid>
+      <guid>https://latpurple.github.io/post/solve/</guid>
       <description>#hugo建站跟使用git上传到github  #teps1: 配置config.toml文件
-baseUrl=&amp;ldquo;latpurple.github.io&amp;rdquo;
+baseUrl=&amp;ldquo;https://latpurple.github.io/&amp;quot;
 themeDir=themes
 theme=&amp;ldquo;m10c&amp;rdquo;
 . . .
@@ -48,10 +58,10 @@ emmmm，每次add . 的时候，GitHub上面会有404报错，试试add *
     
     <item>
       <title>Dome</title>
-      <link>https://github.latpurple.io/post/dome/</link>
+      <link>https://latpurple.github.io/post/dome/</link>
       <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
       
-      <guid>https://github.latpurple.io/post/dome/</guid>
+      <guid>https://latpurple.github.io/post/dome/</guid>
       <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
 #test again 希望这次能够成功吧！
 #进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
