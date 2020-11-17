@@ -23,11 +23,50 @@
     </item>
     
     <item>
+      <title>Finaltest</title>
+      <link>https://latpurple.github.io/post/finaltest/</link>
+      <pubDate>Sat, 14 Nov 2020 13:53:39 +0800</pubDate>
+      
+      <guid>https://latpurple.github.io/post/finaltest/</guid>
+      <description>#warning 或许是新建一个markdown的问题？？
+我再测试一次，这回如果有问题的话，那就是了。
+等等再测试删除一个markdown会不会同样更新
+ #selove！！ 我懂了！为什么push之后没有出来，
+是因为还没有刷新出来！
+等一下就okl，nice！！！
+ #test again 试试删除一个，然后等几分钟
+ #result 确实可以，突然明白是为什么了，这个的意思就是把代码托管到github上面，
+但是，生成网站只需用到其中一部分，
+因此，GitHub上面还是有那个markdown文件，
+但是，如果我改文件名呢？</description>
+    </item>
+    
+    <item>
       <title>0x02</title>
       <link>https://latpurple.github.io/post/0x02/</link>
       <pubDate>Sat, 14 Nov 2020 13:24:48 +0800</pubDate>
       
       <guid>https://latpurple.github.io/post/0x02/</guid>
+      <description>#about my cet46  #listening parts emmmmm,听力渣渣，不得不练习了，不然又要炸，这个分不太想丢。
+ #write parts 这个部分不太知道怎么学习，跟着写吧，分高一点，我的阅读跟完型就算是炸一点应该也没啥关系吧
+#wrong 这次我是用的
+1、hugo
+2、git add *
+3、git commit -m &amp;ldquo;cet update&amp;rdquo;
+4、 git push origin master
+然后就出现404错误
+5、试试更改之后，然后用git push -u origin master
+我感觉应该可行
+#ps：
+如果不行的话，我再试试 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://github.com/latpurple/latpurple.github.io.git&amp;quot; &amp;ndash;buildDrafts</description>
+    </item>
+    
+    <item>
+      <title>Cet 4</title>
+      <link>https://latpurple.github.io/post/cet-4/</link>
+      <pubDate>Sat, 14 Nov 2020 13:24:48 +0800</pubDate>
+      
+      <guid>https://latpurple.github.io/post/cet-4/</guid>
       <description>#about my cet46  #listening parts emmmmm,听力渣渣，不得不练习了，不然又要炸，这个分不太想丢。
  #write parts 这个部分不太知道怎么学习，跟着写吧，分高一点，我的阅读跟完型就算是炸一点应该也没啥关系吧
 #wrong 这次我是用的
@@ -73,6 +112,36 @@ git add . 会把本地所有untrack的文件都加入暂存区，并且会根据
     </item>
     
     <item>
+      <title>Solve</title>
+      <link>https://latpurple.github.io/post/solve/</link>
+      <pubDate>Sat, 14 Nov 2020 00:35:09 +0800</pubDate>
+      
+      <guid>https://latpurple.github.io/post/solve/</guid>
+      <description>#hugo建站跟使用git上传到github  #teps1: 配置config.toml文件
+baseUrl=&amp;ldquo;https://latpurple.github.io&amp;rdquo;
+这里一定不能写成baseUrl=&amp;ldquo;https://latpurple.github.io/&amp;quot;
+注意这个反斜杠，好像是他的问题，我把他加上再试一次
+ #改正 好像并不影响
+ themeDir=themes
+theme=&amp;ldquo;m10c&amp;rdquo;
+. . .
+ #说明 这样做可以省去很多步骤，也可以不用配置，而是直接在命令行里面进行配置，但是每次都要这样，会很麻烦，主要是容易忘，emmm血的教训
+ #teps2 启动hugo
+hugo server -D或者hugo也行？
+这是生成了一个public文件，可以覆盖掉以前的public文件
+public存放着本地生成地静态网站，可以通过本地访问
+ #解释 我明白了，hugo是直接生成public，hugo server -D是开启本地服务
+ #teps3 cd public
+进入public文件夹
+ #teps4 git add .
+(或许第一次使用需要git init？？)
+我这里直接git add .或者是add * ?
+ #更新 git add . 和 git add * 区别
+git add . 会把本地所有untrack的文件都加入暂存区，并且会根据.gitignore做过滤，但是git add * 会忽略.gitignore把任何文件都加入 添加当前目录全部文件到暂存区
+因此，当我们更新博客的时候，使用add * ，这样就可以保证上传的都是hugo命令生成的了。</description>
+    </item>
+    
+    <item>
       <title>0x00</title>
       <link>https://latpurple.github.io/post/0x00/</link>
       <pubDate>Fri, 13 Nov 2020 18:19:24 +0800</pubDate>
@@ -81,6 +150,15 @@ git add . 会把本地所有untrack的文件都加入暂存区，并且会根据
       <description>#一次测试 之前遇到好多的问题，快整吐了QAQ
 #test again 希望这次能够成功吧！
 #进行更新 博客成功部署到GitHub上了，试试更新操作，为了减少后续出而造成更大损失。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://latpurple.github.io/post/picture-to-base64/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://latpurple.github.io/post/picture-to-base64/</guid>
+      <description>使用python将图片转base64 improt base64f=</description>
     </item>
     
   </channel>
