@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://latpurple.github.io/</loc>
+    <lastmod>2020-11-17T01:11:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://latpurple.github.io/post/</loc>
+    <lastmod>2020-11-17T01:11:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://latpurple.github.io/post/testpic/</loc>
+    <lastmod>2020-11-17T01:11:28+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://latpurple.github.io/post/0x03/</loc>
     <lastmod>2020-11-14T13:53:39+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://latpurple.github.io/post/finaltest/</loc>
-    <lastmod>2020-11-14T13:53:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://latpurple.github.io/</loc>
-    <lastmod>2020-11-14T13:53:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://latpurple.github.io/post/</loc>
     <lastmod>2020-11-14T13:53:39+08:00</lastmod>
   </url>
   
